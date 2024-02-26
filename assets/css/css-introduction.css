@@ -1,0 +1,63 @@
+/* Universal Selector-
+it is applied all the elements.
+*/
+*{
+    background: antiquewhite;
+}
+
+
+h1, h2{
+    color: magenta !important;
+    color:blue;
+}
+/* p{
+    color:blueviolet;
+} */
+/* Class as a Selector */
+.text{
+    color:red;
+}
+.text1{
+    color:blue;
+}
+.text2{
+    color:red;
+}
+.text3{
+    color:greenyellow;
+}
+/* ID as a selector */
+#text1{
+    color:navy;
+}
+#text2{
+    color:lightsalmon;
+}
+#text3{
+    color:green;
+}
+#para1{
+    color:brown;
+}
+
+/* Orderlist */
+/* ol li{
+    color:red;
+} */
+/* parent to child seletor */
+/* ol li{
+    color:red;
+}
+li a{
+    color:red;
+} */
+/* descendant selector */
+/* ol, li, a{
+    color:red;
+} */
+/* ol li{
+    color:red;
+}
+li.app a{
+    color:red;
+} */

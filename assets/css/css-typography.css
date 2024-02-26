@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Anta&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Protest+Revolution&display=swap');
+
+/* Take a note
+font-family: "Anta", sans-serif;
+ font-family: "Protest Revolution", sans-serif;
+
+*/
+
+
+
+
+*{
+    background-color: #d3d3d3;
+}
+.standard{
+    background-color: blueviolet;
+}
+.hex{
+    background-color: rgb(255, 99, 71);
+}
+.rgb{
+    background-color: rgb(221, 160, 221);
+}
+.rgba{
+    /* background-color: rgba(255, 255, 255, .5); */
+    background-color: rgba(255, 255, 255, .1);
+    
+}
+/* Font Family */
+.text1{
+    font-size: 26px;
+    font-family: monospace;
+}
+.text2{
+    font-size: 26px;
+    font-family: "Anta", sans-serif;
+}
+.text3{
+    font-size: 26px;
+    font-family: "Protest Revolution", sans-serif;
+}
+/* Font Style */
+.italic{
+    font-style: italic;
+    font-size: 24px;
+}
+.oblique{
+    font-style: oblique;
+    font-size: 24px;
+}
+.normal{
+    font-style: normal;
+    font-size: 24px;
+}
+/* Text Transform */
+.uppercase{
+    font-size: 24px;
+    text-transform: uppercase;
+}
+.lowercase{
+    font-size: 24px;
+    text-transform: lowercase;
+}
+.capitalize{
+    font-size: 24px;
+    text-transform: capitalize;
+}
+/* Text Decoration */
+.underline{
+    text-decoration: underline;
+    font-size: 24px;
+}
+.overline{
+    text-decoration: overline;
+    font-size: 24px;
+}
+.line-through{
+    text-decoration: line-through;
+    font-size: 24px;
+}
+/* Text Align */
+.right{
+    text-align: right;
+    font-size: 24px;
+}
+.center{
+    text-align: center;
+    font-size: 24px;
+}
+.left{
+    text-align: left;
+    font-size: 24px;
+}
+.text{
+    border:3px solid red;
+}
+.text h1{
+    color:white;
+}
+/* Text-indent */
+.text-indent{
+    text-indent: 20px;
+    text-indent: 2em;
+    text-indent: 25%;
+}
+.letter-spacing{
+    letter-spacing: 10px;
+    letter-spacing: -3px;
+}
+.word-spacing{
+    word-spacing: 20px;
+    word-spacing: -5px;
+}

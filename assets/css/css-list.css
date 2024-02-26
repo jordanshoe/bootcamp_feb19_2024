@@ -1,0 +1,42 @@
+/* list-style or list-style-type */
+
+.alpha{
+    list-style: lower-alpha;
+    list-style: upper-alpha;
+}
+
+.hobbies{
+    font-size: 20px;
+    color: tomato;
+}
+#priority_list{
+    text-decoration: underline;
+}
+.circle{
+    list-style: circle;
+}
+.roman{
+    list-style: lower-roman;
+    list-style: upper-roman;
+}
+.square{
+    list-style: square;
+}
+.decimal{
+    list-style: decimal;
+}
+.ul-outside{
+    list-style-position: outside;
+}
+.ol-inside{
+    list-style-position: inside;
+    list-style: lower-alpha;
+    /* shorthand code */
+    list-style: upper-alpha inside;
+}
+
+/* text-shadow */
+li{
+    /* text-shadow: x y blur color; */
+    text-shadow: -3px -3px 1px red;
+}
